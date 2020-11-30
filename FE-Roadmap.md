@@ -8,15 +8,16 @@ ES6
 
 TypeScript
 
-### React 
+### 框架  React
 
-**已经进入以Hook为主的阶段**
+**React 已经进入以Hook为主的阶段**
 
 - [ ] [React.js 小书](http://huziketang.mangojuice.top/books/react)
 
 - [x] [react-typescript-cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet  )  
 
-React 动态设置Component中的 props style属性？[React inline sytle best practices](https://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices) 
+- [x] React 动态设置Component中的 props style属性？[React inline sytle best practices](https://stackoverflow.com/questions/26882177/react-js-inline-style-best-practices) 
+
 
 **Jest**
 
