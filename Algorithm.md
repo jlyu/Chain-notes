@@ -12,7 +12,7 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 套路：问题转化，明确dp数组，找出状态和选择，Base case、最优子结构，（利用数学归纳找）状态转移方程，优化dp结构(压缩2维变1维，1维变2变量)
 
 - [300. Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) `LIS`算法只能用在一维DP数组情况。dp[i] 表示以 nums[i] 为结尾的最长递增子序列 `LIS` 长度 （要注意子序列、子串、子数组的区别）
-- [354. Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/) 此题是 300 的变体，先对二维数组按第一列排序，第二列就转化为求 `LIS` 算法。
+- [354. Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes/) 此题是 [300. Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) 的变体，先对二维数组按第一列排序，第二列就转化为求 `LIS` 算法。
 - [53. Maximum Subarray](https://leetcode-cn.com/problems/maximum-subarray/) dp[i] 为 num[i] 为结尾的“最大子数组和”
 - [1143. Longest Common Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence/) `LCS`算法，典型的二维DP。dp[i] [j] 表示对于s1[0..i-1] 和 s2[0..j-1]，其LCS长度是 dp[i] [j]
 - [72. Edit Distance](https://leetcode-cn.com/problems/edit-distance/) if s字符相同，则 i,j 同时往前移动。 else 则三选一（插入j-1/删除i-1/替换i-1, j-1）dp[i] [j] 就是 s1[0..i] 和 s2[0..j]的最小编辑距离
@@ -24,7 +24,12 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 - [416. Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/) 01背包问题。（注意第2个for loop 要从后往前遍历
 - [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 完全背包问题。 
 - [198. House Robber](https://leetcode-cn.com/problems/house-robber/) 
-- [213. House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) 环形的DP，比较巧妙的定义robRange，因为首尾房子不能同时抢的限定，所以出现3种情况，1首尾同时不抢；2抢头不抢尾；3不抢头抢尾
+- [213. House Robber II](https://leetcode-cn.com/problems/house-robber-ii/) 环形的DP，比较巧妙的定义robRange，因为首尾房子不能同时抢的限定，所以出现3种情况，1首尾同时不抢；2抢头不抢尾；3不抢头抢尾，整理一下发现只考虑23情况即可，在入口处控制rob的范围。
 - [337. House Robber III](https://leetcode-cn.com/problems/house-robber-iii/) 二叉树型的DP，只是外型变了内核没有改变，还是选择rob或不rob
 - [494. Target Sum](https://leetcode-cn.com/problems/target-sum/) 用回溯也可以做。可以把这题转化为子集求和 [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 问题 
 
+
+
+做DP状态定义的时候，要跳出自己对数组的思维。
+
+做DP选择时候发现出现了多种情况，那就把每种情况都算一遍，因为求最值的本质还是穷举。
