@@ -53,3 +53,95 @@ Object.prototype.toString.call(window)   //"[object Window]"
 
 在+运算中，一旦存在字符串，则会进行字符串拼接操作，除了+有可能把运算子转为字符串，其他运算符都会把运算子自动转成数值
 
+
+
+# 深浅拷贝
+
+## 浅拷贝的原理和实现
+
+> 创建一个新的对象，来接受要重新复制或引用的对象值。如果对象属性是`基本的数据类型`，复制的就是基本类型的`值`给新对象；但如果属性是`引用数据类型`，复制的就是`内存中的地址`，如果其中一个对象改变了这个内存中的地址，肯定会影响到另一个对象。
+
+### 方法一：object.assign
+
+object.assign 是 ES6 中 object 的一个方法，该方法可以用于 JS 对象的合并等多个用途，其中一个用途就是可以进行浅拷贝。
+
+```
+let target = {};
+let source = { a: { b: 2 } };
+Object.assign(target, source);
+console.log(target); // { a: { b: 10 } }; 
+source.a.b = 10; 
+console.log(source); // { a: { b: 10 } }; 
+console.log(target); // { a: { b: 10 } };
+```
+
+首先通过 Object.assign 将 source 拷贝到 target 对象中，然后我们尝试将 source 对象中的 b 属性由 2 修改为 10。通过控制台可以发现，打印结果中，三个 target 里的 b 属性都变为 10 了，证明 Object.assign 暂时实现了我们想要的拷贝效果。
+
+使用 object.assign 方法有几点需要注意：
+
+- ​	它不会拷贝对象的继承属性；
+
+- ​	它不会拷贝对象的不可枚举的属性；
+
+- ​	可以拷贝 Symbol 类型的属性。
+
+
+可以简单理解为：Object.assign 循环遍历原对象的属性，通过复制的方式将其赋值给目标对象的相应属性，来看一下这段代码，以验证它可以拷贝 Symbol 类型的对象。
+
+```
+let obj1 = { a:{ b:1 }, sym:Symbol(1)}; 
+Object.defineProperty(obj1, 'innumerable' ,{
+    value:'不可枚举属性',
+    enumerable:false
+});
+let obj2 = {};
+Object.assign(obj2,obj1)
+obj1.a.b = 2;
+console.log('obj1',obj1);
+console.log('obj2',obj2);
+```
+
+![image-20210408151922045](C:\SAPShare\Chainnotes\Assets\image-20210408151922045.png)
+
+从上面的样例代码中可以看到，利用 object.assign 也可以拷贝 Symbol 类型的对象，但是如果到了对象的第二层属性 obj1.a.b 这里的时候，前者值的改变也会影响后者的第二层属性的值，说明其中依旧存在着访问共同堆内存的问题，也就是说这种方法还不能进一步复制，而只是完成了浅拷贝的功能。
+
+
+
+### 方法二：扩展运算符方式 {...} 
+
+```
+/* 对象的拷贝 */
+let obj = {a:1, b:{c: 1}}
+let obj2 = {...obj}
+obj.a = 2
+console.log(obj)  //{a:2,b:{c:1}} 
+console.log(obj2); //{a:1,b:{c:1}}
+obj.b.c = 2
+console.log(obj)  //{a:2,b:{c:2}} 
+console.log(obj2); //{a:1,b:{c:2}}
+
+/* 数组的拷贝 */
+let arr = [1, 2, 3];
+let newArr = [...arr]; //跟arr.slice()是一样的效果
+```
+
+扩展运算符 和 object.assign 有同样的缺陷，也就是实现的浅拷贝的功能差不多，但是如果属性都是基本类型的值，使用扩展运算符进行浅拷贝会更加方便。
+
+### 方法三：concat 拷贝数组
+
+
+
+### 方法四：slice 拷贝数组 
+
+
+
+## 手工实现一个浅拷贝 
+
+## 深拷贝的原理和实现
+
+### 方法一：乞丐版（JSON.stringfy）
+
+### 方法二：基础版（手写递归实现）
+
+### 方法三：改进版（改进后递归实现）
+
