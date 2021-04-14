@@ -1,3 +1,19 @@
+![image-20210414172111991](C:\SAPShare\Chainnotes\Assets\image-20210414172111991.png)
+
+
+
+# 考察基准
+
+- [ ] 手写深浅拷贝
+- [ ] 理解6种继承实现
+- [ ] 手写new / call / apply / bind 底层逻辑实现
+- [ ] 理解闭包
+- [ ] 手写 JSON.stringify 方法
+
+
+
+
+
 # 数据类型 
 
 JS 中有六种简单数据类型：undefined、null、boolean、string、number、symbol、BigInt，以及引用类型：object
