@@ -1,12 +1,12 @@
-# 基准要求
+# 算法要求
 
 - [x] DP 思想
 - [x] 手写 `LRU` 算法 (自定义双链表和哈希表实现/直接使用LinkedHashMap)
 - [x] 手写 `LFU` 算法 (直接使用LinkedHashSet，自定义Node只要2个Map[KN, FN]，不定义需要3个Map[KV, KF, FK])
 - [ ] 手写 `BST` 各种遍历框架及 CRUD 结点操作、序列化
 - [x] Git rebase原理之二叉树最近的公共祖先 `LCA` (利用了二叉树递归后序遍历)
-- [ ] 单调栈
-- [ ] 单调队列 
+- [x] 单调栈
+- [x] 单调队列 
 
 
 
@@ -48,11 +48,38 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 - [337. House Robber III](https://leetcode-cn.com/problems/house-robber-iii/) 二叉树型的DP，只是外型变了内核没有改变，还是选择rob或不rob 
 - [494. Target Sum](https://leetcode-cn.com/problems/target-sum/) 用回溯也可以做。可以把这题转化为子集求和 [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 问题 
 
-
-
 做DP状态定义的时候，要跳出自己对数组的思维。
 
 做DP选择时候发现出现了多种情况，那就把每种情况都算一遍，因为求最值的本质还是穷举。
+
+
+
+# 回溯算法 
+
+子集，排列，组合
+
+解数独，括号生成，
+
+```
+result = []
+def backTrack(path, chooselist):
+	if (base case):
+		result.add(chooselist)
+		return
+	
+	for loop:
+		chooselist.add(path) // 做出选择
+		backTrack(path, chooselist) // 递归，回溯
+		chooselist.remove(path) //撤销选择
+```
+
+
+
+# DFS BFS 
+
+
+
+
 
 
 
@@ -61,3 +88,9 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 ## 单调队列
 
 单调队列在添加元素的时候靠删除元素保持队列的单调性，相当于抽取出某个函数中单调递增（或递减）的部分。核心思路和 `单调栈` 类似，push 方法依然在队尾添加元素，但要把比自己小的元素都出队删除。
+
+
+
+
+
+# 

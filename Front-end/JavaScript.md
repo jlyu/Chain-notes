@@ -38,7 +38,7 @@ JS 中有六种简单数据类型：undefined、null、boolean、string、number
 
 - 第三种判断方法：`Object.prototype.toString`
 
-```
+```javascript
 Object.prototype.toString({})       // "[object Object]"
 Object.prototype.toString.call({})  // 同上结果，加上call也ok
 Object.prototype.toString.call(1)    // "[object Number]"
@@ -81,7 +81,7 @@ Object.prototype.toString.call(window)   //"[object Window]"
 
 object.assign 是 ES6 中 object 的一个方法，该方法可以用于 JS 对象的合并等多个用途，其中一个用途就是可以进行浅拷贝。
 
-```
+```javascript
 let target = {};
 let source = { a: { b: 2 } };
 Object.assign(target, source);
@@ -104,7 +104,7 @@ console.log(target); // { a: { b: 10 } };
 
 可以简单理解为：Object.assign 循环遍历原对象的属性，通过复制的方式将其赋值给目标对象的相应属性，来看一下这段代码，以验证它可以拷贝 Symbol 类型的对象。
 
-```
+```javascript
 let obj1 = { a:{ b:1 }, sym:Symbol(1)}; 
 Object.defineProperty(obj1, 'innumerable' ,{
     value:'不可枚举属性',
@@ -125,7 +125,7 @@ console.log('obj2',obj2);
 
 ### 方法二：扩展运算符方式 {...} 
 
-```
+```javascript
 /* 对象的拷贝 */
 let obj = {a:1, b:{c: 1}}
 let obj2 = {...obj}
