@@ -393,16 +393,16 @@ BFC 里的内容不会跟外部的元素重叠或者相互影响。如果给元�
 
 ```css
 .node-text-word-wrap {
-	overflow: hidden; // 溢出隐藏
+    overflow: hidden; // 溢出隐藏
     overflow-wrap: break-word;  // 用来说明当一个不能被分开的字符串太长而不能填充其包裹盒时，为防止其溢出，浏览器是否允许这样的单词中断换行。break-word 表示如果行内没有多余的地方容纳该单词到结尾，则那些正常的不能被分割的单词会被强制分割换行。
-	text-overflow: ellipsis; // 确定如何向用户发出未显示的溢出内容信号。它可以被剪切，显示一个省略号 ...
+    text-overflow: ellipsis; // 确定如何向用户发出未显示的溢出内容信号。它可以被剪切，显示一个省略号 ...
     word-break: normal; // 指定了怎样在单词内断行。默认 
-	display: -moz-box;                /* Mozilla */
+    display: -moz-box;                /* Mozilla */
     display: -webkit-box;             /* WebKit */
     display: box;                     /* As specified */
     -moz-box-orient: horizontal;      /* Mozilla */
-  	-webkit-box-orient: horizontal;   /* WebKit */
-  	box-orient: horizontal;           /* As specified */
+    -webkit-box-orient: horizontal;   /* WebKit */
+    box-orient: horizontal;           /* As specified */
     -webkit-line-clamp: 2; // 可以把块容器中的内容限制为指定的行数. 它只有在 display 属性设置成 -webkit-box 或者 -webkit-inline-box 并且 -webkit-box-orient (en-US) 属性设置成 vertical时才有效果
 }
 ```
