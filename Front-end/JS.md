@@ -4,8 +4,8 @@
 
 # 考察基准
 
-- [ ] 手写深浅拷贝
-- [ ] 理解原型链，6种继承实现
+- [x] 手写深浅拷贝
+- [x] 理解原型链，6种继承实现
 - [ ] 手写new / call / apply / bind 底层逻辑实现
 - [ ] 理解闭包
 - [ ] 手写 JSON.stringify 方法
@@ -177,11 +177,11 @@ let newArr = [...arr]; //跟arr.slice()是一样的效果
 
 不管是对象，还是函数和数组，它们都是Object的实例，也就是说**在 JavaScript 中，除了原始类型以外，其余都是对象。**每个对象还都拥有一个原型对象，并可以从中继承方法和属性。
 
-函数也是一种特殊的对象，它同样拥有属性和值。所有的函数会有一个特别的属性 `prototype`，该属性的值是一个对象，这个对象便是我们常说的“原型对象”。
+函数也是一种特殊的对象，它同样拥有属性和值。**所有的函数会有一个特别的属性 `prototype`**，该属性的值是一个对象，这个对象便是我们常说的“**原型对象**”。
 
 ```js
 function Person(name) {
-  this.name = name;
+    this.name = name;
 }
 
 console.log(Person.prototype);
@@ -205,9 +205,9 @@ console.log(Person.prototype);
 
 ## 使用 prototype 和 **proto** 实现继承
 
-前面说过，对象之所以使用广泛，是因为对象的属性值可以为任意类型。因此，属性的值同样可以为另外一个对象，这意味着 JavaScript 可以这么做：通过将对象 A 的`__proto__`属性赋值为对象 B，即`A.__proto__ = B`，此时使用`A.__proto__`便可以访问 B 的属性和方法。
+前面说过，对象之所以使用广泛，是因为对象的属性值可以为任意类型。因此，属性的值同样可以为另外一个对象，这意味着可以这么做：通过将对象 A 的`__proto__`属性赋值为对象 B，即`A.__proto__ = B`，此时使用`A.__proto__`便可以访问 B 的属性和方法。
 
-这样，JavaScript 可以在两个对象之间创建一个关联，使得一个对象可以访问另一个对象的属性和方法，从而实现了继承。
+这样就可以在两个对象之间创建一个关联，使得一个对象可以访问另一个对象的属性和方法，从而实现了继承。
 
 那么，JavaScript 又是怎样使用`prototype`和`__proto__`实现继承的呢？
 
@@ -219,7 +219,7 @@ var lily = new Person("Lily");
 
 上述这段代码在运行时，JavaScript 引擎通过将`Person`的原型对象`prototype`赋值给实例对象`lily`的`__proto__`属性，实现了`lily`对`Person`的继承，即执行了以下代码：
 
-```
+```js
 // 实际上 JavaScript 引擎执行了以下代码
 var lily = {};
 lily.__proto__ = Person.prototype;
@@ -228,7 +228,7 @@ Person.call(lily, "Lily");
 
 我们来打印一下`lily`实例：
 
-![Drawing 3.png](C:\SAPShare\Chainnotes\Assets\Cgp9HWBwC56AVE8iAAAQagv5qXA279.png)
+![](C:\SAPShare\Chainnotes\Assets\Cgp9HWBwC56AVE8iAAAQagv5qXA279.png)
 
 可以看到，`lily`作为`Person`的实例对象，它的`__proto__`指向了`Person`的原型对象，即`Person.prototype`。
 
@@ -262,7 +262,7 @@ Person.call(lily, "Lily");
 
 我们可以通过一个具体的例子，来表示基于原型链的对象属性的访问过程，在该例子中我们构建了一条对象的原型链，并进行属性值的访问：
 
-```
+```js
 // 让我们假设我们有一个对象 o, 其有自己的属性 a 和 b：
 var o = {a: 1, b: 2};
 // o 的原型 o.__proto__有属性 b 和 c：
@@ -286,7 +286,7 @@ console.log(o.d); // o.c => o.__proto__.d => o.__proto__.__proto__ == null => un
 也就是说，可以通过原型链去访问原型对象上的属性和方法，我们不需要在创建对象的时候给该对象重新赋值/添加方法。比如，我们调用`lily.toString()`时，JavaScript 引擎会进行以下操作：
 
 1. 先检查`lily`对象是否具有可用的`toString()`方法；
-2. 如果没有，则``检查`lily`的原型对象（`Person.prototype`）是否具有可用的`toString()`方法；
+2. 如果没有，则`检查` lily`的原型对象（`Person.prototype`）是否具有可用的`toString()`方法；
 3. 如果也没有，则检查`Person()`构造函数的`prototype`属性所指向的对象的原型对象（即`Object.prototype`）是否具有可用的`toString()`方法，于是该方法被调用。
 
 由于通过原型链进行属性的查找，需要层层遍历各个原型对象，此时可能会带来性能问题：
@@ -608,64 +608,149 @@ child5
 
 我们可以利用 ES6 里的 extends 的语法糖，使用关键词很容易直接实现 JavaScript 的继承，但是如果想深入了解 extends 语法糖是怎么实现的，就得深入研究 extends 的底层逻辑。
 
-```js
+```ts
 class Person {
-  constructor(name) {
-    this.name = name
-  }
-  // 原型方法
-  // 即 Person.prototype.getName = function() { }
-  // 下面可以简写为 getName() {...}
-  getName = function () {
-    console.log('Person:', this.name)
-  }
+    constructor(name) {
+        this.name = name
+    }
+    // 原型方法
+    // 即 Person.prototype.getName = function() { }
+    // 下面可以简写为 getName() {...}
+    getName = function () {
+        console.log('Person:', this.name)
+    }
 }
+
 class Gamer extends Person {
-  constructor(name, age) {
-    // 子类中存在构造函数，则需要在使用“this”之前首先调用 super()。
-    super(name)
-    this.age = age
-  }
+    constructor(name, age) {
+        // 子类中存在构造函数，则需要在使用“this”之前首先调用 super()。
+        super(name)
+        this.age = age
+    }
 }
+
 const asuna = new Gamer('Asuna', 20)
 asuna.getName() // 成功访问到父类的方法
 ```
-
-因为浏览器的兼容性问题，如果遇到不支持 ES6 的浏览器，那么就得利用 babel 这个编译工具，将 ES6 的代码编译成 ES5，让一些不支持新语法的浏览器也能运行。
 
 那么最后 extends 编译成了什么样子呢？从编译完成的源码中可以看到，它采用的也是**寄生组合继承方式**。
 
 ```js
 function _possibleConstructorReturn (self, call) { 
-		// ...
-		return call && (typeof call === 'object' || typeof call === 'function') ? call : self; 
+    // ...
+    return call && (typeof call === 'object' || typeof call === 'function') ? call : self; 
 }
+
 function _inherits (subClass, superClass) { 
-    // 这里可以看到
-	subClass.prototype = Object.create(superClass && superClass.prototype, { 
-		constructor: { 
-			value: subClass, 
-			enumerable: false, 
-			writable: true, 
-			configurable: true 
-		} 
-	}); 
-	if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; 
+    subClass.prototype = Object.create(superClass && superClass.prototype, { 
+         constructor: { 
+            value: subClass, 
+            enumerable: false, 
+            writable: true, 
+            configurable: true 
+        } 
+    }); 
+    if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; 
 }
 
 var Parent = function Parent () {
-	// 验证是否是 Parent 构造出来的 this
-	_classCallCheck(this, Parent);
+    // 验证是否是 Parent 构造出来的 this
+    _classCallCheck(this, Parent);
 };
 var Child = (function (_Parent) {
-	_inherits(Child, _Parent);
-	function Child () {
-		_classCallCheck(this, Child);
-		return _possibleConstructorReturn(this, (Child.__proto__ || Object.getPrototypeOf(Child)).apply(this, arguments));
-}
-	return Child;
+    _inherits(Child, _Parent);
+    function Child () {
+        _classCallCheck(this, Child);
+        return _possibleConstructorReturn(this, (Child.__proto__ || Object.getPrototypeOf(Child)).apply(this, arguments));
+    }
+    return Child;
 }(Parent));
 ```
 
 
+
+# 闭包 
+
+> 红宝书闭包的定义：闭包是指有权访问另外一个函数作用域中的变量的函数。
+> MDN：一个函数和对其周围状态的引用捆绑在一起（或者说函数被引用包围），这样的组合就是闭包（closure）。也就是说，闭包让你可以在一个内层函数中访问到其外层函数的作用域。
+
+在 JavaScript 中作用域也分为好几种，ES5 之前只有全局作用域和函数作用域两种。ES6 出现之后，又新增了块级作用域
+
+闭包其实就是**一个可以访问其他函数内部变量的函数**。即一个定义在函数内部的函数，或者直接说闭包是个**内嵌函数**也可以。
+
+因为通常情况下，函数内部变量是无法在外部访问的（即全局变量和局部变量的区别），因此使用闭包的作用，就具备实现了能在外部访问某个函数内部变量的功能，让这些内部变量的值始终可以保存在内存中。
+
+#### 闭包产生的原因
+
+我们在前面介绍了作用域的概念，那么你还需要明白作用域链的基本概念。其实很简单，当访问一个变量时，代码解释器会首先在当前的作用域查找，如果没找到，就去父级作用域去查找，直到找到该变量或者不存在父级作用域中，这样的链路就是作用域链。
+
+需要注意的是，每一个子函数都会拷贝上级的作用域，形成一个作用域的链条。什么是作用域链，即当前函数一般都会存在上层函数的作用域的引用，那么他们就形成了一条作用域链。
+
+闭包产生的本质就是：**当前环境中存在指向父级作用域的引用。**
+
+```
+function fun1() {
+  var a = 2
+  function fun2() {
+    console.log(a);  //2
+  }
+  return fun2;
+}
+var result = fun1();
+result();
+```
+
+那是不是只有返回函数才算是产生了闭包呢？其实也不是，回到闭包的本质，我们只需要让父级作用域的引用存在即可
+
+```
+var fun3;
+function fun1() {
+  var a = 2
+  fun3 = function() {
+    console.log(a);
+  }
+}
+fun1();
+fun3();
+```
+
+可以看出，其中实现的结果和前一段代码的效果其实是一样的，就是在给 fun3 函数赋值后，fun3 函数就拥有了 window、fun1 和 fun3 本身这几个作用域的访问权限；然后还是从下往上查找，直到找到 fun1 的作用域中存在 a 这个变量；因此输出的结果还是 2，最后产生了闭包，形式变了，本质没有改变。
+
+
+
+#### 闭包的表现形式
+
+闭包的表现形式及应用场景到底有哪些呢？大概有四种场景。
+
+1. 返回一个函数，上面讲原因的时候已经说过，这里就不赘述了。
+
+2. 在定时器、事件监听、Ajax 请求、Web Workers 或者任何异步中，只要使用了回调函数，实际上就是在使用闭包。请看下面这段代码，这些都是平常开发中用到的形式。
+
+```
+setTimeout(function handler(){
+  console.log('1');
+}，1000);
+
+// 事件监听
+$('#app').click(function(){
+  console.log('Event Listener');
+});
+```
+
+3. 作为函数参数传递的形式
+
+```js
+var a = 1;
+function foo() {
+  var a = 2;
+  function baz() { console.log(a); }
+  bar(baz);
+}
+function bar(fn){
+  fn(); // 这就是闭包
+}
+foo();  // 输出2，而不是1
+```
+
+4. IIFE（立即执行函数），创建了闭包，保存了全局作用域（window）和当前函数的作用域，因此可以输出全局的变量。IIFE 这个函数会稍微有些特殊，算是一种自执行匿名函数，这个匿名函数拥有独立的作用域。这不仅可以避免了外界访问此 IIFE 中的变量，而且又不会污染全局作用域，我们经常能在高级的 JavaScript 编程中看见此类函数。
 
