@@ -1,9 +1,20 @@
+# Todo
+
+- [ ] 手写Redux
+- [ ] 复习DP背包问题
+
+
+
+
+
+
+
 # Books
 
 - [x] 大前端架构
 - [x] 整洁代码之道
 - [ ] 重构（第2版）
-- [ ] 算法小抄 
+- [ ] 算法小抄（抄袭拼凑，欺世盗名，非原创） 
 - [ ] 设计模式 https://refactoringguru.cn/design-patterns/catalog
 
 
@@ -67,6 +78,7 @@
 - [x] **React Event**  SVG mouseLeave not trigger when mouse move too fast mouseenter和mouseleave各会触发一个动画，当你快速移动鼠标离开的时候，两个动画效果会产生一个执行动画的序列。
   - [x] [React event onMouseLeave not triggered when moving cursor fast](https://stackoverflow.com/questions/31775182/react-event-onmouseleave-not-triggered-when-moving-cursor-fast) 
   - [x] [Moving the mouse: mouseover/out, mouseenter/leave](https://javascript.info/mousemove-mouseover-mouseout-mouseenter-mouseleave) 
+- [ ] [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/context/)
 
 ## **React** Hooks
 
