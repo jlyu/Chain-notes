@@ -1,7 +1,8 @@
 # Todo
 
-- [ ] 手写Redux
-- [ ] 复习DP背包问题
+- [x] 手写Redux
+- [ ] 复习DP背包问题 (01, 完全, 多重)
+- [ ] [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37) 
 
 
 
@@ -31,6 +32,10 @@
 
 **SVG支持多语言文字** （英文环境已经调整完毕，但中文字体的话内容溢出） 主要还是处理不同字体引起的行高变化问题，加了padding在textblockHeight内部解决
 
+
+<details> 
+<summary>显示更多</summary>  
+
 **SVG页面自动滚动**
 
 **SVG Text 换行问题**
@@ -43,7 +48,7 @@
 1. 嵌入foreignObject标签实现（破坏pure svg，IE11不兼容）[[1]](https://qastack.cn/programming/4991171/auto-line-wrapping-in-svg-text)[[2]](https://segmentfault.com/q/1010000008426252/a-1020000008428672)[[3]](https://codepen.io/maxzz/pen/NzBGVE)
 2. 自动换行算法自行计算tspan占用宽度（但不支持单词分行，只能做到字符级别）[[1]](https://juejin.im/entry/6844903582072832008)[[2]](http://zaaack.github.io/2018/08/16/svg-auto-wrapped-text-component-for-react/)
 3. 用 d3plus.textWrapping   [[1]](https://bl.ocks.org/davelandry/a39f0c3fc52804ee859a)[[2]](https://github.com/alexandersimoes/d3plus/wiki/Text-Wrapping)
-
+</details>
 
 
 
@@ -88,7 +93,9 @@
 
 # Redux 
 
-[Redux 源码专精(17集完整版)](https://www.bilibili.com/video/BV1254y1L7UP) 90 分钟手写一个 Redux & ReactRedux
+- [x] [Redux 源码专精(17集完整版)](https://www.bilibili.com/video/BV1254y1L7UP) 90 分钟手写一个 Redux & ReactRedux
+
+  
 
 # Jest
 

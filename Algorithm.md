@@ -1,6 +1,6 @@
 # 算法要求
 
-- [x] DP 思想
+- [x] DP  (背包)
 - [x] 手写 `LRU` 算法 (自定义双链表和哈希表实现/直接使用LinkedHashMap)
 - [x] 手写 `LFU` 算法 (直接使用LinkedHashSet，自定义Node只要2个Map[KN, FN]，不定义需要3个Map[KV, KF, FK])
 - [ ] 手写 `BST` 各种遍历框架及 CRUD 结点操作、序列化
@@ -52,6 +52,35 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 
 做DP选择时候发现出现了多种情况，那就把每种情况都算一遍，因为求最值的本质还是穷举。
 
+## 背包问题
+
+### 01背包
+
+> 「01背包」是指给定物品价值与体积（对应了「给定价值与成本」），在规定容量下（对应了「限定决策规则」）如何使得所选物品的总价值最大。
+
+有N件物品和一个容量是V的背包。每件物品有且只有一件。
+
+第i件物品的体积是v[i]，价值是w[i]。求解将哪些物品装入背包，可使这些物品的总体积不超过背包容量，且总价值最大。
+
+```java
+public int maxValue(int N, int V, int[] v, int[] w) {
+    int[][] dp = new int[N][V+1]; // dp 数组：一个二维数组，其中一维代表当前「当前枚举到哪件物品」，另外一维「现在的剩余容量」，数组装的是「最大价值」。
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j <= V; j++) {
+			int c1 = dp[i-1][j]; // 只存在2种选择：不放入物品，即上一次的重量状态
+			
+			int c2 = (j > v[i]) ? dp[i-1][j - v[i]] + w[i] : 0; // 另1种选择：放入物品，前提是重量未超
+        	dp[i][j] = Math.max(c1, c2);
+		}
+	}
+	return dp[N-1][V];
+}
+```
+
+- dp[N]\[C+1] 解法 : 即上述解法
+- dp[2]\[C+1] 解法：把dp一维的地方全部 &1，即%2操作
+- dp[C+1] 解法：第2个for loop改成从后往前遍历： `for (int j = V; j >= v[i]; j--)`
+
 
 
 # 回溯算法 
@@ -96,3 +125,7 @@ def backTrack(path, chooselist):
 
 
 # 
+
+# 参考出处
+
+[动态规划/背包问题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NDE3MTEyMA==&action=getalbum&album_id=1751702161341628417&uin=&key=&devicetype=Windows+7+x64&version=6302019a&lang=zh_CN&ascene=7&fontgear=2) 宫水三叶的刷题日记
