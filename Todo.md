@@ -1,7 +1,8 @@
 # Todo
 
 - [x] 手写Redux
-- [ ] 复习DP背包问题 (01, 完全, 多重)
+- [ ] [学习React Hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html)
+- [ ] 复习DP背包问题 (01, 完全, 多重, ...)
 - [ ] [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37) 
 
 
@@ -67,6 +68,8 @@
 - [x] JS继承实现：探究 JS 常见的 6 种继承方式 https://kaiwu.lagou.com/course/courseInfo.htm?courseId=601#/detail/pc?id=6176
 
 # TS
+
+- [ ] 入门 TypeScript Handbook 入门教程 https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/
 
 - [x] TypeScript 高级用法 https://zhuanlan.zhihu.com/p/350033675
 
