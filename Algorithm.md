@@ -74,7 +74,7 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 
 做DP选择时候发现出现了多种情况，那就把每种情况都算一遍，因为求最值的本质还是穷举。
 
-## 背包问题
+## 背包问题 [01/完全/多重i-ii-iii/混合/二维费用/分组]
 
 - 01背包
 
@@ -113,8 +113,24 @@ public int maxValue(int N, int V, int[] v, int[] w) {
 ```
 
 - dp[N]\[C+1] 解法 : 即上述解法
-- dp[2]\[C+1] 解法：把dp一维的地方全部 &1，即%2操作
+- dp[2]\[C+1] 解法：把dp一维的地方全部 &1，即%2操作. 滚动数组 
 - dp[C+1] 解法：第2个for loop改成从后往前遍历： `for (int j = V; j >= v[i]; j--)`
+
+```java
+public int maxValue(int N, int V, int[] v, int[] w) {
+    int[] dp = new int[V+1]; // dp 数组：一个一维数组，其中一维代表当前「现在的剩余容量」，数组装的是「最大价值」。
+	for (int i = 0; i < N; i++) {
+		for (int j = V; j >= v[i]; j--) { 
+			//int c1 = dp[j]; // 只存在2种选择：不放入物品，即上一次的重量状态
+			//int c2 = dp[j - v[i]] + w[i] : 0; // 另1种选择：放入物品，前提是重量未超
+        	dp[i][j] = Math.max(dp[j], dp[j - v[i]] + w[i]);
+		}
+	}
+	return dp[V];
+}
+```
+
+
 
 
 
