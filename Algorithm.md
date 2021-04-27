@@ -1,5 +1,14 @@
 # 算法要求
 
+- [ ] 算法的复杂度分析。
+- [ ] 排序算法，以及区别和优化。
+- [ ] 数组中的双指针、滑动窗口思想。
+- [ ] 利用 Map 和 Set 处理查找表问题。
+- [ ] 链表的各种问题。
+- [ ] 利用递归和迭代法解决二叉树问题。
+- [ ] 栈、队列、DFS、BFS。
+- [ ] 回溯法、贪心算法、动态规划。
+- [ ] 
 - [x] DP  (背包)
 - [x] 手写 `LRU` 算法 (自定义双链表和哈希表实现/直接使用LinkedHashMap)
 - [x] 手写 `LFU` 算法 (直接使用LinkedHashSet，自定义Node只要2个Map[KN, FN]，不定义需要3个Map[KV, KF, FK])
@@ -12,7 +21,20 @@
 
 
 
+# 复杂度
 
+- `n≤30`, 指数级别, dfs+剪枝，状态压缩dp
+- `n≤100` => O(n3)O(n3)，floyd，dp，高斯消元
+- `n≤1000` => O(n2)O(n2)，O(n2logn)O(n2logn)，dp，二分，朴素版Dijkstra、朴素版Prim、Bellman-Ford
+- `n≤10000` => O(n∗n√)O(n∗n)，块状链表、分块、莫队
+- `n≤100000` => O(nlogn)O(nlogn) => 各种sort，线段树、树状数组、set/map、heap、拓扑排序、dijkstra+heap、prim+heap、spfa、求凸包、求半平面交、二分、CDQ分治、整体
+- `n≤1000000` => O(n)O(n), 以及常数较小的 O(nlogn)O(nlogn) 算法 => 单调队列、 hash、双指针扫描、并查集，kmp、AC自动机，常数比较小的 
+  - ​				  O(nlogn)O(nlogn) 的做法：sort、树状数组、heap、dijkstra、spfa
+- `n≤10^6` => O(n)O(n)，双指针扫描、kmp、AC自动机、线性筛素数
+- `n≤10^9` => O(n√)O(n)，判断质数
+- `n≤10^18` => O(logn)O(logn)，最大公约数，快速幂
+- `n≤10^1000` => O((logn)2)O((logn)2)，高精度加减乘除
+- `n≤10^100000` => O(logk×loglogk)，k表示位数O(logk×loglogk)，k表示位数，高精度加减、FFT/NTT
 
 
 
@@ -53,6 +75,19 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 做DP选择时候发现出现了多种情况，那就把每种情况都算一遍，因为求最值的本质还是穷举。
 
 ## 背包问题
+
+- 01背包
+
+  - [x] [416. Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  
+
+- 完全背包
+
+  - [ ] [322. Coin Change](https://leetcode-cn.com/problems/coin-change/)
+  - [x] [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 
+
+- 多重背包
+
+
 
 ### 01背包
 
@@ -129,3 +164,5 @@ def backTrack(path, chooselist):
 # 参考出处
 
 [动态规划/背包问题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NDE3MTEyMA==&action=getalbum&album_id=1751702161341628417&uin=&key=&devicetype=Windows+7+x64&version=6302019a&lang=zh_CN&ascene=7&fontgear=2) 宫水三叶的刷题日记
+
+[由数据范围反推算法复杂度以及算法内容](https://www.acwing.com/blog/content/32/) 
