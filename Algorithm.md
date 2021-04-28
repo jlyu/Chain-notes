@@ -1,15 +1,14 @@
 # 算法要求
 
-- [ ] 算法的复杂度分析。
-- [ ] 排序算法，以及区别和优化。
-- [ ] 数组中的双指针、滑动窗口思想。
-- [ ] 利用 Map 和 Set 处理查找表问题。
-- [ ] 链表的各种问题。
-- [ ] 利用递归和迭代法解决二叉树问题。
-- [ ] 栈、队列、DFS、BFS。
-- [ ] 回溯法、贪心算法、动态规划。
-- [ ] 
-- [x] DP  (背包)
+- [ ] 算法的复杂度分析
+- [ ] 排序算法，以及区别和优化
+- [ ] 数组中的双指针、滑动窗口思想
+- [ ] 利用 Map 和 Set 处理查找表问题
+- [ ] 链表的各种问题
+- [ ] 利用递归和迭代法解决二叉树问题
+- [ ] 栈、队列、DFS、BFS
+- [ ] 回溯、贪心算法、动态规划
+- [x] DP  (背包[01/完全/多重i-ii-iii/混合/二维费用/分组])
 - [x] 手写 `LRU` 算法 (自定义双链表和哈希表实现/直接使用LinkedHashMap)
 - [x] 手写 `LFU` 算法 (直接使用LinkedHashSet，自定义Node只要2个Map[KN, FN]，不定义需要3个Map[KV, KF, FK])
 - [ ] 手写 `BST` 各种遍历框架及 CRUD 结点操作、序列化
@@ -29,7 +28,8 @@
 - `n≤10000` => O(n∗n√)O(n∗n)，块状链表、分块、莫队
 - `n≤100000` => O(nlogn)O(nlogn) => 各种sort，线段树、树状数组、set/map、heap、拓扑排序、dijkstra+heap、prim+heap、spfa、求凸包、求半平面交、二分、CDQ分治、整体
 - `n≤1000000` => O(n)O(n), 以及常数较小的 O(nlogn)O(nlogn) 算法 => 单调队列、 hash、双指针扫描、并查集，kmp、AC自动机，常数比较小的 
-  - ​				  O(nlogn)O(nlogn) 的做法：sort、树状数组、heap、dijkstra、spfa
+
+  ​      				  O(nlogn)O(nlogn) 的做法：sort、树状数组、heap、dijkstra、spfa
 - `n≤10^6` => O(n)O(n)，双指针扫描、kmp、AC自动机、线性筛素数
 - `n≤10^9` => O(n√)O(n)，判断质数
 - `n≤10^18` => O(logn)O(logn)，最大公约数，快速幂
@@ -79,12 +79,10 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 - 01背包
 
   - [x] [416. Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  
-
 - 完全背包
-
+  - [ ] 279
   - [ ] [322. Coin Change](https://leetcode-cn.com/problems/coin-change/)
   - [x] [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 
-
 - 多重背包
 
 
