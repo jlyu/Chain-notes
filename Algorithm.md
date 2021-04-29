@@ -78,11 +78,11 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 
 - 01背包
 
-  - [x] [416. Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum/)  
+  - [x] 416. Partition Equal Subset Sum https://leetcode-cn.com/problems/partition-equal-subset-sum/  
 - 完全背包
-  - [ ] 279
-  - [ ] [322. Coin Change](https://leetcode-cn.com/problems/coin-change/)
-  - [x] [518. Coin Change 2](https://leetcode-cn.com/problems/coin-change-2/) 
+  - [x] 279. Perfect Squares https://leetcode-cn.com/problems/perfect-squares/
+  - [x] 322. Coin Change https://leetcode-cn.com/problems/coin-change/
+  - [x] 518. Coin Change 2 https://leetcode-cn.com/problems/coin-change-2/
 - 多重背包
 
 
@@ -173,7 +173,7 @@ def backTrack(path, chooselist):
 
 
 
-# 
+![img](D:\SAPShare\Chainnotes\Assets\题型技巧总结.png)
 
 # 参考出处
 
