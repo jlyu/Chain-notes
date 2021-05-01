@@ -39,7 +39,31 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 
 
 
-![image-20210429171356118](C:\SAPShare\Chainnotes\Assets\image-20210429171356118.png)
+- [ ] **背包问题**
+- [x] 416. Partition Equal Subset Sum （01背包） https://leetcode-cn.com/problems/partition-equal-subset-sum/
+- [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
+- [x] 322. Coin Change (完全背包) https://leetcode-cn.com/problems/coin-change/
+- [x] 518. Coin Change 2 (完全背包) https://leetcode-cn.com/problems/coin-change-2/
+- [ ] **路径问题** 
+- [x] 62. Unique Paths  https://leetcode-cn.com/problems/unique-paths/
+- [x] 63. Unique Paths II https://leetcode-cn.com/problems/unique-paths-ii/
+- [ ] 64. 最小路径和（中等）
+- [ ] 120. 三角形最小路径和（中等）
+- [ ] 931. 下降路径最小和（中等）
+- [ ] 1289. 下降路径最小和 II（困难）
+- [ ] 1575. 统计所有可行路径（困难）
+- [ ] 576. 出界的路径数（中等）
+- [ ] 1301. 最大得分的路径数目（困难）
+
+
+
+![image-20210429171356118](.\Assets\image-20210429171356118.png)
+
+
+
+# Reading 
+
+- [ ] 
 
 
 
