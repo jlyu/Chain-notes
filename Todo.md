@@ -45,10 +45,15 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 	- [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/
 	- [x] 53. Maximum Subarray https://leetcode-cn.com/problems/maximum-subarray/
 	- [x] 198. House Robber https://leetcode-cn.com/problems/house-robber/  (198, 213, 337) 
+	- [ ] 213. House Robber II https://leetcode-cn.com/problems/house-robber-ii/  环形的DP
+	- [ ] 337. House Robber III https://leetcode-cn.com/problems/house-robber-iii/  二叉树型的DP
 	- [x] 121. 买卖股票的最佳时机 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ (121, 122, 123, 188, 309, 714)
-	- [x] 300. `LIS` Longest Increasing Subsequence https://leetcode-cn.com/problems/longest-increasing-subsequence/ (300, 1143, 354)
-	- [ ] 1143. `LCS` Longest Common Subsequence https://leetcode-cn.com/problems/longest-common-subsequence/
-	- [ ] 354. Russian Doll Envelopes https://leetcode-cn.com/problems/russian-doll-envelopes/ 
+	- [x] 300. `LIS` Longest Increasing Subsequence https://leetcode-cn.com/problems/longest-increasing-subsequence/ (~~300, 1143, 354~~)
+	- [x] 1143. `LCS` Longest Common Subsequence https://leetcode-cn.com/problems/longest-common-subsequence/
+	- [x] 354. `Sort + LIS` Russian Doll Envelopes https://leetcode-cn.com/problems/russian-doll-envelopes/
+	- [x] 72. Edit Distance https://leetcode-cn.com/problems/edit-distance/
+	- [ ] dd
+	- [ ] dd
 	
 - [ ] **背包问题**
 	- [x] 416. Partition Equal Subset Sum （01背包） https://leetcode-cn.com/problems/partition-equal-subset-sum/
