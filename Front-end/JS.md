@@ -1,4 +1,4 @@
-![image-20210414172111991](C:\SAPShare\Chainnotes\Assets\image-20210414172111991.png)
+![image-20210414172111991](..\Assets\image-20210414172111991.png)
 
 
 

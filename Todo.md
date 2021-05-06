@@ -57,6 +57,9 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 	- [x] 72. Edit Distance https://leetcode-cn.com/problems/edit-distance/
 	- [x] 303. Range Sum Query - Immutable https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
 	- [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
+	- [ ] -
+	- [x] 85. Maximal Rectangle  https://leetcode-cn.com/problems/maximal-rectangle/ (84, ~~85, 221,~~ 304, 1277)
+	- [x] 221. Maximal Square  https://leetcode-cn.com/problems/maximal-square/
 	
 - [ ] **背包问题 (4)** 
 	- [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
