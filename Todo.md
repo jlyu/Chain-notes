@@ -43,24 +43,25 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 # 刷题记录
 
 - [ ] **动态规划 (14)**
-	- [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
-	- [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
-	- [x] 1137. N-th Tribonacci Number https://leetcode-cn.com/problems/n-th-tribonacci-number/
-	- [x] 53. Maximum Subarray https://leetcode-cn.com/problems/maximum-subarray/
-	- [x] 198. `线性DP` House Robber https://leetcode-cn.com/problems/house-robber/    (~~198, 213, 337~~, 309, 740, 790,801) 
-	- [x] 213. `环形DP` House Robber II https://leetcode-cn.com/problems/house-robber-ii/  
-	- [x] 337. `二叉树型递归Memo非DP` House Robber III https://leetcode-cn.com/problems/house-robber-iii/  
-	- [x] 121. 买卖股票的最佳时机 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ (121, 122, 123, 188, 309, 714)
-	- [x] 300. `LIS` Longest Increasing Subsequence https://leetcode-cn.com/problems/longest-increasing-subsequence/ (~~300, 1143, 354~~)
-	- [x] 1143. `LCS` Longest Common Subsequence https://leetcode-cn.com/problems/longest-common-subsequence/
-	- [x] 354. `Sort + LIS` Russian Doll Envelopes https://leetcode-cn.com/problems/russian-doll-envelopes/
-	- [x] 72. Edit Distance https://leetcode-cn.com/problems/edit-distance/
-	- [x] 303. Range Sum Query - Immutable https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
-	- [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
-	- [ ] -
-	- [x] 85. Maximal Rectangle  https://leetcode-cn.com/problems/maximal-rectangle/ (84, ~~85, 221,~~ 304, 1277)
-	- [x] 221. Maximal Square  https://leetcode-cn.com/problems/maximal-square/
-	
+  - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
+  - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
+  - [x] 1137. N-th Tribonacci Number https://leetcode-cn.com/problems/n-th-tribonacci-number/
+  - [x] 53. Maximum Subarray https://leetcode-cn.com/problems/maximum-subarray/
+  - [x] 198. `线性DP` House Robber https://leetcode-cn.com/problems/house-robber/    (~~198, 213, 337~~, 309, 740, 790,801) 
+  - [x] 213. `环形DP` House Robber II https://leetcode-cn.com/problems/house-robber-ii/  
+  - [x] 337. `二叉树型递归Memo非DP` House Robber III https://leetcode-cn.com/problems/house-robber-iii/  
+  - [x] 121. 买卖股票的最佳时机 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ (121, 122, 123, 188, 309, 714)
+  - [x] 300. `LIS` Longest Increasing Subsequence https://leetcode-cn.com/problems/longest-increasing-subsequence/ (~~300, 1143, 354~~)
+  - [x] 1143. `LCS` Longest Common Subsequence https://leetcode-cn.com/problems/longest-common-subsequence/
+  - [x] 354. `Sort + LIS` Russian Doll Envelopes https://leetcode-cn.com/problems/russian-doll-envelopes/
+  - [x] 72. Edit Distance https://leetcode-cn.com/problems/edit-distance/
+  - [ ] -
+  - [x] 85. Maximal Rectangle  https://leetcode-cn.com/problems/maximal-rectangle/ (84, ~~85, 221,~~ 304, 1277)
+  - [x] 221. Maximal Square  https://leetcode-cn.com/problems/maximal-square/ (221, 304, )
+  - [x] 303. Range Sum Query - Immutable  https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
+  - [ ] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
+  - [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
+
 - [ ] **背包问题 (4)** 
 	- [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
 	- [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
