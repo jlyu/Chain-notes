@@ -10,16 +10,15 @@
 
 # Algorithms 
 
-https://bit.ly/2E8yBHq
+- https://bit.ly/2E8yBHq
+- https://leetcode.wang/leetCode-1-Two-Sum.html
 
-https://leetcode.wang/leetCode-1-Two-Sum.html
-
+- [x] 动态规划 Dynamic Programming  
 - [ ] 搜索 Search
   - [ ] 二分搜索 Binary Search  
   - [ ] 宽度优先搜索 Breadth First Search  
   - [ ] 深度优先搜索 Depth First Search 
   - [ ] 回溯算法 Backtracking  
-- [x] 动态规划 Dynamic Programming  
 - [ ] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
 - [ ] 滑动窗口 Sliding Window  
@@ -42,8 +41,14 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 
 # 刷题记录
 - [ ] **回溯算法**
-  - [x] 17. `组合` Letter Combinations of a Phone Number  https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
-    18. 
+  - [x] 17. `组合` Letter Combinations of a Phone Number  https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/ (17, 39, 40, 77, 78, 90, 216)
+  - [x] 39. `组合` Combination Sum  https://leetcode-cn.com/problems/combination-sum/
+  - [x] 40. `组合` Combination Sum II  https://leetcode-cn.com/problems/combination-sum-ii/
+  - [x] 77. `组合` Combinations  https://leetcode-cn.com/problems/combinations/
+  - [x] 78. `子集` Subsets  https://leetcode-cn.com/problems/subsets/ 
+  - [x] 90. `子集` Subsets II  https://leetcode-cn.com/problems/subsets-ii/
+  - [ ] 216. Combination Sum III  https://leetcode-cn.com/problems/combination-sum-iii/
+
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
   - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
