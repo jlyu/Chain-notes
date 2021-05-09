@@ -18,7 +18,7 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
   - [ ] 二分搜索 Binary Search  
   - [ ] 宽度优先搜索 Breadth First Search  
   - [ ] 深度优先搜索 Depth First Search 
-  - [ ] 回溯法 Backtracking  
+  - [ ] 回溯算法 Backtracking  
 - [x] 动态规划 Dynamic Programming  
 - [ ] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
@@ -41,7 +41,9 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
 
 
 # 刷题记录
-
+- [ ] **回溯算法**
+  - [x] 17. `组合` Letter Combinations of a Phone Number  https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+    18. 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
   - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
@@ -59,7 +61,7 @@ https://leetcode.wang/leetCode-1-Two-Sum.html
   - [x] 85. Maximal Rectangle  https://leetcode-cn.com/problems/maximal-rectangle/ (84, ~~85, 221,~~ 304, 1277)
   - [x] 221. Maximal Square  https://leetcode-cn.com/problems/maximal-square/ (221, 304, )
   - [x] 303. Range Sum Query - Immutable  https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
-  - [ ] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
+  - [x] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
   - [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
 
 - [ ] **背包问题 (4)** 
