@@ -23,3 +23,16 @@
 React ref 是什么？ 
 
 React.createRef();
+
+
+
+Safari 兼容性
+
+https://stackoverflow.com/questions/48109988/svg-filter-makes-element-invisible-in-safari-and-mobile-chrome
+
+https://stackoverflow.com/questions/49822876/css-svg-filter-safari-not-working
+
+现在要兼容 Safari 好像遇到一个问题没法解决，在给button加阴影的时候，由于是SVG元素，所以不能走CSS给HTML的那套，SVG 的阴影是通过 defs 中定义 filter 来实现的，Safari 不支持 filter， chrome 支持的。
+
+SVG 中的 g 元素不能自动计算width 和 height，要自己主动写入 style 指定
+
