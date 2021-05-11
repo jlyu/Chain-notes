@@ -12,19 +12,19 @@
 
 - https://bit.ly/2E8yBHq
 - https://leetcode.wang/leetCode-1-Two-Sum.html
-
 - [x] 动态规划 Dynamic Programming  
 - [ ] 搜索 Search
   - [ ] 二分搜索 Binary Search  
   - [ ] 宽度优先搜索 Breadth First Search  
   - [ ] 深度优先搜索 Depth First Search 
-  - [ ] 回溯算法 Backtracking  
+  - [x] 回溯算法 Backtracking  
 - [ ] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
 - [ ] 滑动窗口 Sliding Window  
 - [ ] 快排 Quick Sort  
 - [ ] 分治 Divide Conquer  
 - [ ] 贪心算法 Greedy  
+- [ ] -
 - [ ] 栈 Stack  
 - [ ] 队列 Queue  
 - [ ] *链表 Linked List  
@@ -47,7 +47,12 @@
   - [x] 77. `组合` Combinations  https://leetcode-cn.com/problems/combinations/
   - [x] 78. `子集` Subsets  https://leetcode-cn.com/problems/subsets/ 
   - [x] 90. `子集` Subsets II  https://leetcode-cn.com/problems/subsets-ii/
-  - [x] 216. Combination Sum III  https://leetcode-cn.com/problems/combination-sum-iii/
+  - [x] 216. `组合` Combination Sum III  https://leetcode-cn.com/problems/combination-sum-iii/
+  - [x] 46. Permutations  https://leetcode-cn.com/problems/permutations/ (~~46, 47, 784,~~ 943, 996)
+  - [x] 47. Permutations II  https://leetcode-cn.com/problems/permutations-ii/
+  - [x] 784. Letter Case Permutation  https://leetcode-cn.com/problems/letter-case-permutation/
+  - [ ] 943. Find the Shortest Superstring  https://leetcode-cn.com/problems/find-the-shortest-superstring/
+  - [ ] 996. Number of Squareful Arrays  https://leetcode-cn.com/problems/number-of-squareful-arrays/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
