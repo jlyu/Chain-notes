@@ -52,7 +52,7 @@
   - [x] 47. Permutations II  https://leetcode-cn.com/problems/permutations-ii/
   - [x] 784. Letter Case Permutation  https://leetcode-cn.com/problems/letter-case-permutation/
   - [ ] 943. Find the Shortest Superstring  https://leetcode-cn.com/problems/find-the-shortest-superstring/
-  - [ ] 996. Number of Squareful Arrays  https://leetcode-cn.com/problems/number-of-squareful-arrays/
+  - [x] 996. Number of Squareful Arrays  https://leetcode-cn.com/problems/number-of-squareful-arrays/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
