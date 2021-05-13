@@ -146,6 +146,16 @@ public int maxValue(int N, int V, int[] v, int[] w) {
 
 # 回溯算法 
 
+**回溯**搜索是深度优先搜索（**DFS**）的一种对于某一个搜索树来说（搜索树是起记录路径和状态判断的作用），**回溯**和**DFS**，其主要的**区别**是，**回溯**法在求解过程中不保留完整的树结构，而深度优先搜索则记下完整的搜索树。 为了减少存储空间，在深度优先搜索中，用标志的方法记录访问过的状态，这种处理方法使得深度优先搜索法与**回溯**法没什么**区别**了。
+
+[Backtracking](http://en.wikipedia.org/wiki/Backtracking) is a more general purpose algorithm.
+
+[Depth-First search](http://en.wikipedia.org/wiki/Depth-first_search) is a specific form of backtracking related to searching tree structures. From Wikipedia:
+
+> One starts at the root (selecting some node as the root in the graph case) and explores as far as possible along each branch before backtracking.
+
+It uses backtracking as part of its means of working with a tree, but is limited to a tree structure.Backtracking, though, can be used on any type of structure where portions of the domain can be eliminated - whether or not it is a logical tree. The Wiki example uses a chessboard and a specific problem - you can look at a specific move, and eliminate it, then backtrack to the next possible move, eliminate it, etc.
+
 DFS? BFS? 
 
 子集，排列，组合
