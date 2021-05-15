@@ -51,8 +51,17 @@
   - [x] 46. Permutations  https://leetcode-cn.com/problems/permutations/ (~~46, 47, 784,~~ 943, 996)
   - [x] 47. Permutations II  https://leetcode-cn.com/problems/permutations-ii/
   - [x] 784. Letter Case Permutation  https://leetcode-cn.com/problems/letter-case-permutation/
-  - [ ] 943. Find the Shortest Superstring  https://leetcode-cn.com/problems/find-the-shortest-superstring/
+  - [ ] 943. **Find the Shortest Superstring**  https://leetcode-cn.com/problems/find-the-shortest-superstring/
   - [x] 996. Number of Squareful Arrays  https://leetcode-cn.com/problems/number-of-squareful-arrays/
+  - [x] 22. Generate Parentheses  https://leetcode-cn.com/problems/generate-parentheses/
+  - [x] 301. **Remove Invalid Parentheses**  https://leetcode-cn.com/problems/remove-invalid-parentheses/
+  - [x] 37. Sudoku Solver  https://leetcode-cn.com/problems/sudoku-solver/
+  - [ ] 51. **N-Queens**  https://leetcode-cn.com/problems/n-queens/
+  - [ ] 52. **N-Queens II**  https://leetcode-cn.com/problems/n-queens-ii/
+- [ ] **DFS**
+  - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/	
+- [ ] **BFS**   
+  - [ ] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
@@ -67,13 +76,11 @@
   - [x] 1143. `LCS` Longest Common Subsequence https://leetcode-cn.com/problems/longest-common-subsequence/
   - [x] 354. `Sort + LIS` Russian Doll Envelopes https://leetcode-cn.com/problems/russian-doll-envelopes/
   - [x] 72. Edit Distance https://leetcode-cn.com/problems/edit-distance/
-  - [ ] -
   - [x] 85. Maximal Rectangle  https://leetcode-cn.com/problems/maximal-rectangle/ (84, ~~85, 221,~~ 304, 1277)
   - [x] 221. Maximal Square  https://leetcode-cn.com/problems/maximal-square/ (221, 304, )
   - [x] 303. Range Sum Query - Immutable  https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
   - [x] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
   - [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
-
 - [ ] **背包问题 (4)** 
 	- [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
 	- [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
