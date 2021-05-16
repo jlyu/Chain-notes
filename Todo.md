@@ -61,6 +61,8 @@
 - [ ] **DFS**
   - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/	
   - [x] 733. Flood Fill  https://leetcode-cn.com/problems/flood-fill/
+  - [x] 200. Number of Islands  https://leetcode-cn.com/problems/number-of-islands/
+  - [x] 130. Surrounded Regions  https://leetcode-cn.com/problems/surrounded-regions/
 - [ ] **BFS**   
   - [ ] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
 
