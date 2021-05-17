@@ -36,3 +36,12 @@ https://stackoverflow.com/questions/49822876/css-svg-filter-safari-not-working
 
 SVG 中的 g 元素不能自动计算width 和 height，要自己主动写入 style 指定
 
+
+
+Minimap 
+
+https://codepen.io/billdwhite/pen/qPWKOg
+
+https://stackoverflow.com/questions/52430288/how-do-i-create-a-minimap-of-an-svg-using-d3-v5-and-show-the-current-viewport-di
+
+https://codepen.io/ivan_bacher/pen/BObLEa
