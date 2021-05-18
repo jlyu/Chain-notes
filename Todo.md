@@ -69,6 +69,9 @@
   - [ ] 
 - [ ] **BFS**   
   - [x] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
+  - [x] 102. Binary Tree Level Order Traversal https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+  - [x] 104. Maximum Depth of Binary Tree https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+  - [x] 199. Binary Tree Right Side View https://leetcode-cn.com/problems/binary-tree-right-side-view/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
