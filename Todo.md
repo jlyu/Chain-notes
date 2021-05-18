@@ -15,8 +15,8 @@
 - [x] 动态规划 Dynamic Programming  
 - [ ] 搜索 Search
   - [ ] 二分搜索 Binary Search  
-  - [ ] 宽度优先搜索 Breadth First Search  
-  - [ ] 深度优先搜索 Depth First Search 
+  - [x] 宽度优先搜索 Breadth First Search  
+  - [x] 深度优先搜索 Depth First Search 
   - [x] 回溯算法 Backtracking  
 - [ ] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
@@ -25,12 +25,12 @@
 - [ ] 分治 Divide Conquer  
 - [ ] 贪心算法 Greedy  
 - [ ] -
-- [ ] 栈 Stack  
-- [ ] 队列 Queue  
-- [ ] *链表 Linked List  
-- [ ] 数组 Array  
-- [ ] 哈希表 Hash Table  
-- [ ] 二叉树 Binary Tree   
+- [x] 栈 Stack  
+- [x] 队列 Queue  
+- [x] 链表 Linked List  
+- [x] 数组 Array  
+- [x] 哈希表 Hash Table  
+- [x] 二叉树 Binary Tree   
 - [ ] 堆 Heap  
 - [ ] 并查集 Union Find  
 - [ ] 字典树 Trie  
@@ -68,7 +68,7 @@
   - [x] 129. Sum Root to Leaf Numbers https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
   - [ ] 
 - [ ] **BFS**   
-  - [ ] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
+  - [x] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
