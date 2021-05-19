@@ -72,6 +72,11 @@
   - [x] 102. Binary Tree Level Order Traversal https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
   - [x] 104. Maximum Depth of Binary Tree https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
   - [x] 199. Binary Tree Right Side View https://leetcode-cn.com/problems/binary-tree-right-side-view/
+  - [x] 101. Symmetric Tree https://leetcode-cn.com/problems/symmetric-tree/
+  - [x] 103. Binary Tree Zigzag Level Order Traversal https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/
+  - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+  - [x] 429. N-ary Tree Level Order Traversal https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+  - [x] 515. Find Largest Value in Each Tree Row https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
