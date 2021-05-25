@@ -66,7 +66,6 @@
   - [x] 993. Cousins in Binary Tree  https://leetcode-cn.com/problems/cousins-in-binary-tree/
   - [x] 124. Binary Tree Maximum Path Sum https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
   - [x] 129. Sum Root to Leaf Numbers https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
-  - [ ] 
 - [ ] **BFS**   
   - [x] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
   - [x] 102. Binary Tree Level Order Traversal https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
@@ -77,6 +76,11 @@
   - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
   - [x] 429. N-ary Tree Level Order Traversal https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
   - [x] 515. Find Largest Value in Each Tree Row https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/
+  - [x] 542. 01 Matrix https://leetcode-cn.com/problems/01-matrix/
+  - [x] 127. **Word Ladder** https://leetcode-cn.com/problems/word-ladder/
+  - [x] 1162. As Far from Land as Possible https://leetcode-cn.com/problems/as-far-from-land-as-possible/
+  - [ ] 310. Minimum Height Trees https://leetcode-cn.com/problems/minimum-height-trees/
+  - [x] 934. Shortest Bridge https://leetcode-cn.com/problems/shortest-bridge/
 
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)

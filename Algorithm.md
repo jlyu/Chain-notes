@@ -76,6 +76,8 @@ DP问题本质是求最值，核心是穷举，且一定具备最优子结构。
 
 ## 背包问题 [01/完全/多重i-ii-iii/混合/二维费用/分组]
 
+背包九讲 https://www.cnblogs.com/coded-ream/p/7208019.html 
+
 - 01背包
 
   - [x] 416. Partition Equal Subset Sum https://leetcode-cn.com/problems/partition-equal-subset-sum/  
