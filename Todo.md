@@ -40,7 +40,7 @@
 
 
 # 刷题记录
-- [ ] **回溯算法 (12)**
+- [x] **回溯算法 (12)**
   - [x] 17. Letter Combinations of a Phone Number  https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/ (~~17, 39, 40, 77, 78, 90, 216~~)
   - [x] 39. Combination Sum  https://leetcode-cn.com/problems/combination-sum/
   - [x] 40. Combination Sum II  https://leetcode-cn.com/problems/combination-sum-ii/
@@ -58,7 +58,7 @@
   - [x] 37. Sudoku Solver  https://leetcode-cn.com/problems/sudoku-solver/
   - [ ] 51. **N-Queens**  https://leetcode-cn.com/problems/n-queens/
   - [ ] 52. **N-Queens II**  https://leetcode-cn.com/problems/n-queens-ii/
-- [ ] **DFS**
+- [x] **DFS**
   - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/	
   - [x] 733. Flood Fill  https://leetcode-cn.com/problems/flood-fill/
   - [x] 200. Number of Islands  https://leetcode-cn.com/problems/number-of-islands/
@@ -66,7 +66,7 @@
   - [x] 993. Cousins in Binary Tree  https://leetcode-cn.com/problems/cousins-in-binary-tree/
   - [x] 124. Binary Tree Maximum Path Sum https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
   - [x] 129. Sum Root to Leaf Numbers https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
-- [ ] **BFS**   
+- [x] **BFS**   
   - [x] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
   - [x] 102. Binary Tree Level Order Traversal https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
   - [x] 104. Maximum Depth of Binary Tree https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
@@ -81,7 +81,10 @@
   - [x] 1162. As Far from Land as Possible https://leetcode-cn.com/problems/as-far-from-land-as-possible/
   - [ ] 310. Minimum Height Trees https://leetcode-cn.com/problems/minimum-height-trees/
   - [x] 934. Shortest Bridge https://leetcode-cn.com/problems/shortest-bridge/
-
+- [ ] **Best FS **
+  - [x] 743. Network Delay Time https://leetcode-cn.com/problems/network-delay-time/
+  - [ ] 1102. Path With Maximum Minimum Value	
+  - [ ] 787. Cheapest Flights Within K Stops
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
   - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
