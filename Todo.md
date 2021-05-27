@@ -15,23 +15,24 @@
 - [x] 动态规划 Dynamic Programming  
 - [ ] 搜索 Search
   - [ ] 二分搜索 Binary Search  
+  - [x] 深度优先搜索 Depth First Search  
   - [x] 宽度优先搜索 Breadth First Search  
-  - [x] 深度优先搜索 Depth First Search 
-  - [x] 回溯算法 Backtracking  
+  - [ ] 最优优先搜索 Best First Search
+  
+  - [x] 回溯算法 Backtracking  (排列/组合/子集/分割)
 - [ ] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
 - [ ] 滑动窗口 Sliding Window  
 - [ ] 快排 Quick Sort  
 - [ ] 分治 Divide Conquer  
 - [ ] 贪心算法 Greedy  
-- [ ] -
+- [ ] 堆 Heap
 - [x] 栈 Stack  
 - [x] 队列 Queue  
 - [x] 链表 Linked List  
 - [x] 数组 Array  
 - [x] 哈希表 Hash Table  
 - [x] 二叉树 Binary Tree   
-- [ ] 堆 Heap  
 - [ ] 并查集 Union Find  
 - [ ] 字典树 Trie  
 
@@ -83,8 +84,8 @@
   - [x] 934. Shortest Bridge https://leetcode-cn.com/problems/shortest-bridge/
 - [ ] **Best FS **
   - [x] 743. Network Delay Time https://leetcode-cn.com/problems/network-delay-time/
-  - [ ] 1102. Path With Maximum Minimum Value	
   - [ ] 787. Cheapest Flights Within K Stops
+  - [ ] 1102. Path With Maximum Minimum Value
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
   - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
@@ -104,22 +105,22 @@
   - [x] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
   - [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
 - [ ] **背包问题 (4)** 
-	- [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
-	- [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
-	- [x] 322. Coin Change (完全背包) https://leetcode-cn.com/problems/coin-change/
-	- [x] 518. Coin Change 2 (完全背包) https://leetcode-cn.com/problems/coin-change-2/
+    - [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
+  - [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
+  - [x] 322. Coin Change (完全背包) https://leetcode-cn.com/problems/coin-change/
+  - [x] 518. Coin Change 2 (完全背包) https://leetcode-cn.com/problems/coin-change-2/
 - [ ] **路径问题 (9)** 
-	- [x] 62. Unique Paths  https://leetcode-cn.com/problems/unique-paths/ (~~62, 63, 64, 120, 931,~~ 1289, 1575, 576, 1301)
-	- [x] 63. Unique Paths II https://leetcode-cn.com/problems/unique-paths-ii/
-	- [x] 64. 最小路径和（中等）https://leetcode-cn.com/problems/minimum-path-sum/
-	- [x] 120. 三角形最小路径和（中等）https://leetcode-cn.com/problems/triangle/
-	- [x] 931. 下降路径最小和（中等）https://leetcode-cn.com/problems/minimum-falling-path-sum/
-	- [ ] 1289. 下降路径最小和 II（困难）
-	- [ ] 1575. 统计所有可行路径（困难）
-	- [ ] 576. 出界的路径数（中等）
-	- [ ] 1301. 最大得分的路径数目（困难）
-
-
+  - [x] 62. Unique Paths  https://leetcode-cn.com/problems/unique-paths/ (~~62, 63, 64, 120, 931,~~ 1289, 1575, 576, 1301)
+  - [x] 63. Unique Paths II https://leetcode-cn.com/problems/unique-paths-ii/
+  - [x] 64. 最小路径和（中等）https://leetcode-cn.com/problems/minimum-path-sum/
+  - [x] 120. 三角形最小路径和（中等）https://leetcode-cn.com/problems/triangle/
+  - [x] 931. 下降路径最小和（中等）https://leetcode-cn.com/problems/minimum-falling-path-sum/
+  - [ ] 1289. 下降路径最小和 II（困难）
+  - [ ] 1575. 统计所有可行路径（困难）
+  - [ ] 576. 出界的路径数（中等）
+  - [ ] 1301. 最大得分的路径数目（困难）
+- [ ] **Heap** 
+  - [ ] 
 
 
 
