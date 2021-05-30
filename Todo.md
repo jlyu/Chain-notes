@@ -127,7 +127,9 @@
   - [x] 1387. Sort Integers by The Power Value https://leetcode-cn.com/problems/sort-integers-by-the-power-value/
   - [x] 373. Find K Pairs with Smallest Sums https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
   - [x] 973. K Closest Points to Origin https://leetcode-cn.com/problems/k-closest-points-to-origin/
-
+- [ ] **Two pointers** 
+  - [x] 344. Reverse String https://leetcode-cn.com/problems/reverse-string/
+  - [x] 26. Remove Duplicates from Sorted Array https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/  
 
 
 # Reading 
@@ -137,10 +139,13 @@
 
 
 # Done
+#### 六月
+- [ ] 
 
 #### 五月
 
-- [x] 学习 DP路径、回溯、DFS、Tree BFS、Graph BFS、Best FS、Heap
+- [x] 学习 DP路径、回溯、DFS、Tree BFS、Graph BFS、Best FS、Heap、Two Pointers
+- [x] Design for minimap and layout engine
 
 
 #### 四月
