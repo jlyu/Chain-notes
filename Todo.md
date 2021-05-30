@@ -26,7 +26,7 @@
 - [ ] 快排 Quick Sort  
 - [ ] 分治 Divide Conquer  
 - [ ] 贪心算法 Greedy  
-- [ ] 堆 Heap
+- [x] 堆 Heap
 - [x] 栈 Stack  
 - [x] 队列 Queue  
 - [x] 链表 Linked List  
@@ -119,8 +119,14 @@
   - [ ] 1575. 统计所有可行路径（困难）
   - [ ] 576. 出界的路径数（中等）
   - [ ] 1301. 最大得分的路径数目（困难）
-- [ ] **Heap** 
-  - [ ] 
+- [x] **Heap** 
+  - [x] 215. Kth Largest Element in an Array https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
+  - [x] 703. Kth Largest Element in a Stream https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
+  - [x] 692. Top K Frequent Words https://leetcode-cn.com/problems/top-k-frequent-words/
+  - [x] 23. Merge k Sorted Lists https://leetcode-cn.com/problems/merge-k-sorted-lists/ 
+  - [x] 1387. Sort Integers by The Power Value https://leetcode-cn.com/problems/sort-integers-by-the-power-value/
+  - [x] 373. Find K Pairs with Smallest Sums https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
+  - [x] 973. K Closest Points to Origin https://leetcode-cn.com/problems/k-closest-points-to-origin/
 
 
 
@@ -134,6 +140,7 @@
 
 #### 五月
 
+- [x] 学习 DP路径、回溯、DFS、Tree BFS、Graph BFS、Best FS、Heap
 
 
 #### 四月
