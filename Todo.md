@@ -130,6 +130,9 @@
 - [ ] **Two pointers** 
   - [x] 344. Reverse String https://leetcode-cn.com/problems/reverse-string/
   - [x] 26. Remove Duplicates from Sorted Array https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/  
+  - [x] 11. Container With Most Water https://leetcode-cn.com/problems/container-with-most-water/
+  - [x] 42. Trapping Rain Water https://leetcode-cn.com/problems/trapping-rain-water/ 
+  - [x] 283. Move Zeroes https://leetcode-cn.com/problems/move-zeroes/ 
 
 
 # Reading 
