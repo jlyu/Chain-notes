@@ -12,6 +12,8 @@
 
 - https://bit.ly/2E8yBHq
 - https://leetcode.wang/leetCode-1-Two-Sum.html
+- https://blog.csdn.net/qq_32424059
+- https://github.com/SharingSource/LogicStack-LeetCode/wiki
 - [x] 动态规划 Dynamic Programming  
 - [ ] 搜索 Search
   - [ ] 二分搜索 Binary Search  
@@ -127,12 +129,13 @@
   - [x] 1387. Sort Integers by The Power Value https://leetcode-cn.com/problems/sort-integers-by-the-power-value/
   - [x] 373. Find K Pairs with Smallest Sums https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
   - [x] 973. K Closest Points to Origin https://leetcode-cn.com/problems/k-closest-points-to-origin/
-- [ ] **Two pointers** 
+- [ ] **Two pointers** (3,11,15,16,18,19,26,27,45,88,395,424,485,633,832,992,1004,1052,1764)
   - [x] 344. Reverse String https://leetcode-cn.com/problems/reverse-string/
   - [x] 26. Remove Duplicates from Sorted Array https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/  
   - [x] 11. Container With Most Water https://leetcode-cn.com/problems/container-with-most-water/
   - [x] 42. Trapping Rain Water https://leetcode-cn.com/problems/trapping-rain-water/ 
   - [x] 283. Move Zeroes https://leetcode-cn.com/problems/move-zeroes/ 
+  - [x] 80. Remove Duplicates from Sorted Array II https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
 
 
 # Reading 
