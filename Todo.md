@@ -22,7 +22,7 @@
   - [ ] 最优优先搜索 Best First Search
   
   - [x] 回溯算法 Backtracking  (排列/组合/子集/分割)
-- [ ] 双指针 Two Pointers  
+- [x] 双指针 Two Pointers  
 - [ ] 扫描线 Scan-line algorithm  
 - [ ] 滑动窗口 Sliding Window  
 - [ ] 快排 Quick Sort  
@@ -129,14 +129,17 @@
   - [x] 1387. Sort Integers by The Power Value https://leetcode-cn.com/problems/sort-integers-by-the-power-value/
   - [x] 373. Find K Pairs with Smallest Sums https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
   - [x] 973. K Closest Points to Origin https://leetcode-cn.com/problems/k-closest-points-to-origin/
-- [ ] **Two pointers** (3,11,15,16,18,19,26,27,45,88,395,424,485,633,832,992,1004,1052,1764)
+- [x] **Two pointers** (3,11,15,16,18,19,26,27,45,88,395,424,485,633,832,992,1004,1052,1764)
   - [x] 344. Reverse String https://leetcode-cn.com/problems/reverse-string/
   - [x] 26. Remove Duplicates from Sorted Array https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/  
   - [x] 11. Container With Most Water https://leetcode-cn.com/problems/container-with-most-water/
   - [x] 42. Trapping Rain Water https://leetcode-cn.com/problems/trapping-rain-water/ 
   - [x] 283. Move Zeroes https://leetcode-cn.com/problems/move-zeroes/ 
   - [x] 80. Remove Duplicates from Sorted Array II https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
-
+- [ ] **Binary Search**
+  - [x] 1062. Longest Repeating Substring https://leetcode-cn.com/problems/longest-repeating-substring/
+  - [x] 704. Binary Search https://leetcode-cn.com/problems/binary-search/
+  - [x] 34. Find First and Last Position of Element in Sorted Array https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 # Reading 
 
