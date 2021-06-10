@@ -3,7 +3,6 @@
 - [ ] [学习React Hooks](https://zh-hans.reactjs.org/docs/hooks-intro.html) 26-
 - [ ] 看完 宫水三叶的刷题日记[【动态规划/背包问题】](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU4NDE3MTEyMA==&action=getalbum&album_id=1751702161341628417&scene=173&from_msgid=2247486107&from_itemidx=1&count=3&nolastread=1#wechat_redirect) 25-
 - [ ] [前端高级进阶指南](https://github.com/sl1673495/blogs/issues/37) 26-
-- [x] DP路径问题
 - [ ] 
 
 
@@ -15,11 +14,11 @@
 - https://blog.csdn.net/qq_32424059
 - https://github.com/SharingSource/LogicStack-LeetCode/wiki
 - [x] 动态规划 Dynamic Programming  
-- [ ] 搜索 Search
-  - [ ] 二分搜索 Binary Search  
+- [x] 搜索 Search
+  - [x] 二分搜索 Binary Search  
   - [x] 深度优先搜索 Depth First Search  
   - [x] 宽度优先搜索 Breadth First Search  
-  - [ ] 最优优先搜索 Best First Search
+  - [x] 最优优先搜索 Best First Search
   
   - [x] 回溯算法 Backtracking  (排列/组合/子集/分割)
 - [x] 双指针 Two Pointers  
@@ -136,10 +135,21 @@
   - [x] 42. Trapping Rain Water https://leetcode-cn.com/problems/trapping-rain-water/ 
   - [x] 283. Move Zeroes https://leetcode-cn.com/problems/move-zeroes/ 
   - [x] 80. Remove Duplicates from Sorted Array II https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
-- [ ] **Binary Search**
+- [x] **Binary Search**
   - [x] 1062. Longest Repeating Substring https://leetcode-cn.com/problems/longest-repeating-substring/
   - [x] 704. Binary Search https://leetcode-cn.com/problems/binary-search/
   - [x] 34. Find First and Last Position of Element in Sorted Array https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+  - [x] 33. Search in Rotated Sorted Array https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+  - [x] 35. Search Insert Position https://leetcode-cn.com/problems/search-insert-position/ 
+  - [x] 153. Find Minimum in Rotated Sorted Array https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
+  - [x] 69. Sqrt(x) https://leetcode-cn.com/problems/sqrtx/ 
+  - [x] 162. Find Peak Element https://leetcode-cn.com/problems/find-peak-element/ 
+  - [x] 374. Guess Number Higher or Lower https://leetcode-cn.com/problems/guess-number-higher-or-lower/ 
+- [x] **Linked List**
+  - [x] 237. Delete Node in a Linked List https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+  - [x] 141. Linked List Cycle https://leetcode-cn.com/problems/linked-list-cycle/ 
+  - [x] 206. Reverse Linked List https://leetcode-cn.com/problems/reverse-linked-list/
+  - [x] 92. Reverse Linked List II https://leetcode-cn.com/problems/reverse-linked-list-ii/ 	
 
 # Reading 
 
