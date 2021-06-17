@@ -150,6 +150,14 @@
   - [x] 141. Linked List Cycle https://leetcode-cn.com/problems/linked-list-cycle/ 
   - [x] 206. Reverse Linked List https://leetcode-cn.com/problems/reverse-linked-list/
   - [x] 92. Reverse Linked List II https://leetcode-cn.com/problems/reverse-linked-list-ii/ 	
+- [x] **Stack**  
+  - [x] 739. Daily Temperatures https://leetcode-cn.com/problems/daily-temperatures/ 
+  - [x] 735. Asteroid Collision https://leetcode-cn.com/problems/asteroid-collision/ 
+  - [x] 20. Valid Parentheses https://leetcode-cn.com/problems/valid-parentheses/ 
+  - [x] 496. Next Greater Element I  https://leetcode-cn.com/problems/next-greater-element-i/
+  - [x] 503. Next Greater Element II https://leetcode-cn.com/problems/next-greater-element-ii/ 
+  - [x] 394. Decode String https://leetcode-cn.com/problems/decode-string/ 
+  - [x] 636. Exclusive Time of Functions https://leetcode-cn.com/problems/exclusive-time-of-functions/ 
 
 # Reading 
 
