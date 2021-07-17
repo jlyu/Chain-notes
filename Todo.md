@@ -9,10 +9,6 @@
 
 # Algorithms 
 
-- https://bit.ly/2E8yBHq
-- https://leetcode.wang/leetCode-1-Two-Sum.html
-- https://blog.csdn.net/qq_32424059
-- https://github.com/SharingSource/LogicStack-LeetCode/wiki
 - [x] 动态规划 Dynamic Programming  
 - [x] 搜索 Search
   - [x] 二分搜索 Binary Search  
@@ -35,7 +31,8 @@
 - [x] 哈希表 Hash Table  
 - [x] 二叉树 Binary Tree   
 - [ ] 并查集 Union Find  
-- [ ] 字典树 Trie  
+- [x] 字典树 Trie  
+- [x] 设计数据结构 [Designing Data Structures](https://leetcode-cn.com/leetbook/detail/designing-data-structures/)
 
 
 
@@ -60,7 +57,9 @@
   - [x] 37. Sudoku Solver  https://leetcode-cn.com/problems/sudoku-solver/
   - [ ] 51. **N-Queens**  https://leetcode-cn.com/problems/n-queens/
   - [ ] 52. **N-Queens II**  https://leetcode-cn.com/problems/n-queens-ii/
+  
 - [x] **DFS**
+  
   - [x] 111. Minimum Depth of Binary Tree https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/	
   - [x] 733. Flood Fill  https://leetcode-cn.com/problems/flood-fill/
   - [x] 200. Number of Islands  https://leetcode-cn.com/problems/number-of-islands/
@@ -68,6 +67,7 @@
   - [x] 993. Cousins in Binary Tree  https://leetcode-cn.com/problems/cousins-in-binary-tree/
   - [x] 124. Binary Tree Maximum Path Sum https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
   - [x] 129. Sum Root to Leaf Numbers https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/
+  
 - [x] **BFS**   
   - [x] 279. Perfect Squares  https://leetcode-cn.com/problems/perfect-squares/
   - [x] 102. Binary Tree Level Order Traversal https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
@@ -83,10 +83,12 @@
   - [x] 1162. As Far from Land as Possible https://leetcode-cn.com/problems/as-far-from-land-as-possible/
   - [ ] 310. Minimum Height Trees https://leetcode-cn.com/problems/minimum-height-trees/
   - [x] 934. Shortest Bridge https://leetcode-cn.com/problems/shortest-bridge/
+  
 - [ ] **Best FS **
   - [x] 743. Network Delay Time https://leetcode-cn.com/problems/network-delay-time/
   - [ ] 787. Cheapest Flights Within K Stops
   - [ ] 1102. Path With Maximum Minimum Value
+  
 - [ ] **动态规划 (14)**
   - [x] 70. Climbing Stairs https://leetcode-cn.com/problems/climbing-stairs/ (~~70, 746, 1137~~)
   - [x] 746. Min Cost Climbing Stairs https://leetcode-cn.com/problems/min-cost-climbing-stairs/
@@ -105,11 +107,13 @@
   - [x] 303. Range Sum Query - Immutable  https://leetcode-cn.com/problems/range-sum-query-immutable/ (~~303, 1218~~)
   - [x] 304. Range Sum Query 2D - Immutable  https://leetcode-cn.com/problems/range-sum-query-2d-immutable/
   - [x] 1218. Longest Arithmetic Subsequence of Given Difference https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/
+  
 - [ ] **背包问题 (4)** 
     - [x] 416. Partition Equal Subset Sum (01背包) https://leetcode-cn.com/problems/partition-equal-subset-sum/
   - [x] 279. Perfect Squares (完全背包) https://leetcode-cn.com/problems/perfect-squares/
   - [x] 322. Coin Change (完全背包) https://leetcode-cn.com/problems/coin-change/
   - [x] 518. Coin Change 2 (完全背包) https://leetcode-cn.com/problems/coin-change-2/
+  
 - [ ] **路径问题 (9)** 
   - [x] 62. Unique Paths  https://leetcode-cn.com/problems/unique-paths/ (~~62, 63, 64, 120, 931,~~ 1289, 1575, 576, 1301)
   - [x] 63. Unique Paths II https://leetcode-cn.com/problems/unique-paths-ii/
@@ -120,6 +124,7 @@
   - [ ] 1575. 统计所有可行路径（困难）
   - [ ] 576. 出界的路径数（中等）
   - [ ] 1301. 最大得分的路径数目（困难）
+  
 - [x] **Heap** 
   - [x] 215. Kth Largest Element in an Array https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
   - [x] 703. Kth Largest Element in a Stream https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
@@ -128,6 +133,7 @@
   - [x] 1387. Sort Integers by The Power Value https://leetcode-cn.com/problems/sort-integers-by-the-power-value/
   - [x] 373. Find K Pairs with Smallest Sums https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
   - [x] 973. K Closest Points to Origin https://leetcode-cn.com/problems/k-closest-points-to-origin/
+  
 - [x] **Two pointers** (3,11,15,16,18,19,26,27,45,88,395,424,485,633,832,992,1004,1052,1764)
   - [x] 344. Reverse String https://leetcode-cn.com/problems/reverse-string/
   - [x] 26. Remove Duplicates from Sorted Array https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/  
@@ -135,6 +141,7 @@
   - [x] 42. Trapping Rain Water https://leetcode-cn.com/problems/trapping-rain-water/ 
   - [x] 283. Move Zeroes https://leetcode-cn.com/problems/move-zeroes/ 
   - [x] 80. Remove Duplicates from Sorted Array II https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
+  
 - [x] **Binary Search**
   - [x] 1062. Longest Repeating Substring https://leetcode-cn.com/problems/longest-repeating-substring/
   - [x] 704. Binary Search https://leetcode-cn.com/problems/binary-search/
@@ -145,11 +152,13 @@
   - [x] 69. Sqrt(x) https://leetcode-cn.com/problems/sqrtx/ 
   - [x] 162. Find Peak Element https://leetcode-cn.com/problems/find-peak-element/ 
   - [x] 374. Guess Number Higher or Lower https://leetcode-cn.com/problems/guess-number-higher-or-lower/ 
+  
 - [x] **Linked List**
   - [x] 237. Delete Node in a Linked List https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
   - [x] 141. Linked List Cycle https://leetcode-cn.com/problems/linked-list-cycle/ 
   - [x] 206. Reverse Linked List https://leetcode-cn.com/problems/reverse-linked-list/
   - [x] 92. Reverse Linked List II https://leetcode-cn.com/problems/reverse-linked-list-ii/ 	
+  
 - [x] **Stack**  
   - [x] 739. Daily Temperatures https://leetcode-cn.com/problems/daily-temperatures/ 
   - [x] 735. Asteroid Collision https://leetcode-cn.com/problems/asteroid-collision/ 
@@ -158,6 +167,27 @@
   - [x] 503. Next Greater Element II https://leetcode-cn.com/problems/next-greater-element-ii/ 
   - [x] 394. Decode String https://leetcode-cn.com/problems/decode-string/ 
   - [x] 636. Exclusive Time of Functions https://leetcode-cn.com/problems/exclusive-time-of-functions/ 
+  
+- [x] **设计数据结构**
+  - [x] 1603. Design Parking System  https://leetcode-cn.com/problems/design-parking-system/
+  - [x] 232. Implement Queue using Stacks https://leetcode-cn.com/problems/implement-queue-using-stacks/
+  - [x] 225. Implement Stack using Queues https://leetcode-cn.com/problems/implement-stack-using-queues/
+  - [x] LCCI 03.01. Three in One https://leetcode-cn.com/problems/three-in-one-lcci/
+  - [x] 155. Min Stack https://leetcode-cn.com/problems/min-stack/
+  - [x] 705. Design HashSet https://leetcode-cn.com/problems/design-hashset/
+  - [x] 706. Design HashMap https://leetcode-cn.com/problems/design-hashmap/
+  - [x] 341. Flatten Nested List Iterator https://leetcode-cn.com/problems/flatten-nested-list-iterator/
+  - [x] 703. Kth Largest Element in a Stream https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/
+  - [x] 208. Implement Trie (Prefix Tree) https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+  - [x] 421. Maximum XOR of Two Numbers in an Array https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/
+  - [ ] 1707. **Maximum XOR With an Element From Array** https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/
+  - [x] 146. LRU Cache https://leetcode-cn.com/problems/lru-cache/
+  - [x] 460. **LFU Cache** https://leetcode-cn.com/problems/lfu-cache/
+
+- https://bit.ly/2E8yBHq
+- https://leetcode.wang/leetCode-1-Two-Sum.html
+- https://blog.csdn.net/qq_32424059
+- https://github.com/SharingSource/LogicStack-LeetCode/wiki
 
 # Reading 
 
@@ -167,7 +197,7 @@
 
 # Done
 #### 六月
-- [ ] 
+- [x] 学习 Binary Search, Linked List, Stack, HashMap
 
 #### 五月
 
